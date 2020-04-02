@@ -1,0 +1,29 @@
+<%- include("partials/header") %>
+
+
+
+
+<section id="gallery">
+    <div class="container">
+        <div class="row align-items-start ">
+            <% data.forEach(movieSet => {
+                movieSet.forEach(movie => {%>
+               
+                    <div class="col-lg-3 col-md-4 col-6 mb-3">
+                        <a href= <%= "/movie/"+movie.imdbID %>>
+                            <div class="card">
+                                <img src= <%= movie.Poster %> alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title"><%= movie.Title %></h5>
+                                    <h6 class="card-title"><%= movie.Year %></h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+            <%});});%>
+        </div>
+    </div>
+</section>
+
+
+<%- include("partials/footer") %>

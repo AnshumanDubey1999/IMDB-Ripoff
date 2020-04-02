@@ -1,0 +1,133 @@
+#icon{
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+body{
+    background-image: url("imgs/background.png");
+    background-repeat: repeat-y;
+    outline: none;
+    background-position: top;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.navbar{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.scrolled{
+    background-color: #683254;
+    transition: background 500ms;
+}
+.navbar .row .navbar-brand{
+    text-decoration: underline;
+    font-family: 'Fondamento', 'Josefin Sans', sans-serif;
+}
+
+/* ______________________________________________________________RESULTS________________________________________________________________ */
+
+#gallery{
+    margin-top: 125px;
+}
+
+#gallery .card .card-body{
+    padding: 15px;
+}
+
+#gallery .card .card-body h5{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+#gallery .card .card-body h6{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgb(70, 68, 68);
+    margin-bottom: 6px;
+}
+
+#gallery a{
+    text-decoration: none;
+}
+
+/*_______________________________________________________________HOME______________________________________________________________________________*/
+
+#homeBox{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 23%;
+    color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#homeBox h1{
+    font-weight: bold;
+    font-size: 6rem;
+    text-decoration: underline;
+    font-family: 'Fondamento', cursive;
+}
+#homeBox h3{
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+}
+
+
+#searchBox{
+    margin: 0 auto;
+    max-width: 252px;
+}
+
+/*_______________________________________________________________ERROR____________________________________________________________________________*/
+
+#error{
+    margin: 0 auto;
+    padding-top: 18%;
+    text-align: center;
+    color: white;
+    max-width: 700px;
+}
+#error h1{
+    font-weight: bold;
+    font-size: 12rem;
+    font-family: 'Fondamento', cursive;
+}
+#error h4{
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: rgb(0,0,0);
+    background: rgba(0,0,0,0.4);
+    border-radius: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* ____________________________________________________________________MOVIE____________________________________________________________ */
+
+#movie{
+    margin-top: 125px;
+    margin-bottom: 30px;
+    padding: 30px;
+    color: white;
+    background: rgba(0,0,0,0.2);
+    border-radius: 2rem;
+}
+
+#movie #poster{
+    border-radius: 1.5rem;
+}

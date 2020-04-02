@@ -1,0 +1,39 @@
+<%- include("partials/header") %>
+
+<div class="container" id="movie">
+    <div class="row">
+        <div class="col-4">
+            <img src= <%= movie.Poster %> id="poster">
+        </div>
+        <div class="col-8">
+            <h1><%= movie.Title %></h1>
+            <h4><%= movie.Year %></h4>
+            <span id="genre"><%= movie.Genre %></span>
+            <br>
+            <span id="rating"> <%= movie.Rated %> </span>
+            <br>
+            <img src="https://img.icons8.com/color/48/000000/imdb.png">
+            <span id="imdbRating"> <%= movie.imdbRating %> </span>
+            <br>
+            <span id="releaseDate">Released : <%= movie.Released %></span>
+            <br>
+            <span id="runtime">Runtime : <%= movie.Runtime %></span>
+            <br>
+        </div>
+        <div class="col-12">
+            <span id="director">Director : <%= movie.Director %></span>
+            <br>
+            <span id="writers">Writers : <%= movie.Writer %></span>
+            <br>
+            <span id="actors">Actors : <%= movie.Actors %></span>
+            <br>
+        </div>
+        <div class="col-12">
+            <h1>Synopsis</h1>
+            <p><%= movie.Plot %></p>
+        </div>
+    </div>
+</div>
+
+
+<%- include("partials/footer") %>
